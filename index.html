@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | Images</title>
+    <link rel="shortcut icon" href="./img/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <!---UNICONS---->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+
+    <!----VENTANA EMERGENTE----->
+    <div class="ventana-emergente"> <!---ligh-->
+        <div class="emergente"> <!----wra-->
+            <header>
+                <div class="fotografo">
+                    <i class="uil uil-camera"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="uil uil-import download"></i>
+                    <i class="uil uil-times exit"></i>
+                </div>
+            </header>
+            <div class="vizualizar-imagen">
+                <div class="img">
+                    <img alt="imagen ventana emergente">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!----IMAGE TITLE-->
+    <header class="header">
+        <img src="./img/images/search-img.jpg" alt="imagen header">
+        <div class="content">
+            <h1>Galleria de imagenes </h1>
+            <p>Busca y descarga imagenes</p>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Imagen a buscar">
+            </div>
+        </div>
+    </header>
+
+    <!---LISTA DE IMAGENES-->
+    <section class="galeria-imagenes">
+        <ul class="imagenes"> 
+            <!---lista de imagenes con JS-->
+        </ul>
+        <button class="cargar-mas">Cargar mas</button>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
